@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="App">
-	  <h1>My Hobby: Needlepoint</h1>
+	  <h1>My Hobby: Metalwork</h1>
 	  <HobbyIntroduction />
 	  <MyProjects />
       </div>
