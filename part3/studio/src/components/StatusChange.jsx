@@ -10,7 +10,7 @@ export default function StatusChange () {
       event.preventDefault();
       setStatus(true);
    }
-   const [notes,setNotes] = useState("");
+   const [notes, setNotes] = useState("");
    const [recipeStatus, setStatus] = useState(false);
 
    return (
@@ -21,10 +21,6 @@ export default function StatusChange () {
             <input type="submit" />
          </form>
 
-         {(recipeStatus) ? <p>{notes}"My Recipe Notes aren't here!"</p>}
-
-
-         {(recipeStatus) ? <p>I have not tried this recipe!</p>:<p>"Ihave not tried this recipe!"</p>}
       </div>
    );
 }
