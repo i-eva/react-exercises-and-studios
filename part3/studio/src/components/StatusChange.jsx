@@ -11,7 +11,7 @@ export default function StatusChange () {
       setStatus(true);
    }
    const [notes, setNotes] = useState("");
-   const [recipeStatus, setStatus] = useState(false);
+   {/*const [recipeStatus, setStatus] = useState(false);*/}
 
    return (
       <div style={{paddingTop: "50px"}}>
