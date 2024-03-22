@@ -38,9 +38,9 @@ const RecipeDescription = () => {
          <div>
             <h1>Detox Rainbow Roll-Ups With Peanut Sauce</h1>
             <p></p>
-            <p>Annnnd it’s Rainbow Roll-Up time!</p>
+            <p>Aaaaand its Rainbow Roll-Up time!</p>
             <p></p>
-            <p>If Rainbow Roll-Up doesn’t give you some association with a packaged, neon-colored fruit leather situation all wrapped up in a little paper coil, then who are you even? I’m having a moderately hard time separating these from the single greatest snack food of my childhood.</p>
+            <p>If Rainbow Roll-Up doesnt give you some association with a packaged, neon-colored fruit leather situation all wrapped up in a little paper coil, then who are you even? Im having a moderately hard time separating these from the single greatest snack food of my childhood.</p>
             <p></p>
             <p>This is not that kind of rainbow roll-up, though. This is a rainbow roll-up that can earn the word DETOX in front of it, thanks to yummy and nutritional powerhouse foods like: carrots. chickpeas. curry. red cabbage. peanuts. dark leafy greens.</p>
             <p></p>
