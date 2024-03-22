@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://pinchofyum.com/about";
+   let authorPhoto = "https://pinchofyum.com/wp-content/assets/images/sidebar/sidebar-lindsay.jpg";
+   let authorName = "Lindsay";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "Lindsay's photo" style={{objectFit: "contain", borderRadius: "50%"}} />
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = [carrots, cucumbers, greens, hummus, quinoa];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +36,15 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
+            <h1>Detox Rainbow Roll-Ups With Peanut Sauce</h1>
             <p></p>
+            <p>Annnnd it’s Rainbow Roll-Up time!</p>
+            <p></p>
+            <p>If Rainbow Roll-Up doesn’t give you some association with a packaged, neon-colored fruit leather situation all wrapped up in a little paper coil, then who are you even? I’m having a moderately hard time separating these from the single greatest snack food of my childhood.</p>
+            <p></p>
+            <p>This is not that kind of rainbow roll-up, though. This is a rainbow roll-up that can earn the word DETOX in front of it, thanks to yummy and nutritional powerhouse foods like: carrots. chickpeas. curry. red cabbage. peanuts. dark leafy greens.</p>
+            <p></p>
+            <p>See, mom? I can eat like an adult after all.</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +56,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://pinchofyum.com/cdn-cgi/image/width=680,height=99999,fit=scale-down/wp-content/uploads/Rainbow-Rolls-4.jpg" alt="plate of rollups" className="imageUpdates"/>
    );
 }
 
